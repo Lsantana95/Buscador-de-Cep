@@ -33,7 +33,7 @@ Este projeto foi desenvolvido em:
 
 ## 🚀 API
 
-O projeto utilizou a API do site viacep.com.br para fazer a pesquisa dos ceps. Link da documentação da API: [Viacep website](https://viacep.com.br/). Também foi utilizada a API do Axios para fazer as requisições HTTP. Link da documentação da API do Axios: [Axios API website](https://axios-http.com/docs/api_intro) 
+O projeto utilizou a API do site viacep.com.br para fazer a pesquisa dos ceps. Link da documentação da API: [Viacep website] (https://viacep.com.br/). Também foi utilizada a API do Axios para fazer as requisições HTTP. Link da documentação da API do Axios: [Axios API website] (https://axios-http.com/docs/api_intro) 
 
 ## ⚙ Licença
 
