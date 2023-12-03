@@ -31,6 +31,8 @@ Este projeto foi desenvolvido em:
 
 ![Projeto-Buscador de Ceps](./src/assets/Projeto4.gif)
 
+### Você pode testar o site através deste [Link](https://buscador-de-cep-eta.vercel.app/)
+
 ## 🚀 API
 
 O projeto utilizou a API do site viacep.com.br para fazer a pesquisa dos ceps. Link da documentação da API: [Viacep website](https://viacep.com.br/). Também foi utilizada a API do Axios para fazer as requisições HTTP. Link da documentação da API do Axios: [Axios API website](https://axios-http.com/docs/api_intro) 
