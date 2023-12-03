@@ -1,0 +1,93 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #007666;
+}
+
+.title {
+    font-size: 60px;
+    color: #ffff;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.container-input {
+   background-color: #c2c2c2;
+   padding: 15px;
+   margin: 34px;
+   border-radius: 8px;
+   display: flex;
+   box-shadow: 2px 3px 5px #c4f2f2;
+}
+
+.container-input input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #ffff;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.container-input input::placeholder {
+    color: #fff;
+}
+
+.ButtonSearch {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.ButtonSearch:hover{
+    transform: scale(1.2);
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    height: 30%;
+    border-radius: 8px;
+}
+
+.container-main h2 {
+    margin: 16px 0;
+    font-size: 35px;
+}
+
+.container-main span {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 620px) {
+    .title {
+        font-size: 40px;
+    }
+    .container-main h2{
+        font-size: 25px;
+    }
+    .container-main {
+        width: 80%;
+        min-height: 250px;
+    }
+}
